@@ -2,4 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section {
+    margin-top: 5vh;
+    padding: 2vh 6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border: solid black 1px;
+    align-items: center;
+    height: fit-content;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    gap: 2vh;
 }
